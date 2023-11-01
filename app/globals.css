@@ -25,3 +25,11 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.blueee{
+  background-image: "detonaclean/assets/Detona Cover.png" ;
+}
+
+.text-shadow {
+  text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
