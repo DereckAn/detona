@@ -2,7 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+html,
+body,
 :root {
+  height: 100%;
+}
+
+/* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -32,4 +38,4 @@ body {
 
 .text-shadow {
   text-shadow: 2px 2px 4px rgb(0, 0, 0);
-}
+} */
