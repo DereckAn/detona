@@ -1,8 +1,13 @@
+import { vacu } from "@/assets/images";
+import Image from "next/image";
+
 const HeroSection = () => {
-    return ( 
-        <div className="bg-orange-600 ">
-            <h1>Hero Section</h1>
-        </div>
+    return (
+        <section className="" >
+            <div className="w-full">
+                <Image src={vacu} alt="vacu2"/>
+            </div>
+        </section> 
      );
 }
  

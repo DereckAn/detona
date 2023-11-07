@@ -1,11 +1,11 @@
-import { larga, trap } from "@/assets";
+import { larga, trap } from "@/assets/images";
 import Image from "next/image";
 import HeroSection from "./sections/herosection";
 
 export default function Home() {
   return (
     <>
-    <HeroSection/> 
+      <HeroSection />
     </>
     // <main>
     //   <div className="flex justify-between  items-start  h-[400px] relative">

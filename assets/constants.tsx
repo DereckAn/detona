@@ -16,7 +16,7 @@ export const routes = [
         path: "/schedule",
     },
     {
-        name: "Contact us",
+        name: "Contact",
         path: "/contact",
     },
 ];
