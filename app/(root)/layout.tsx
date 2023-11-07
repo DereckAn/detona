@@ -1,10 +1,10 @@
-import SideBar from "@/components/shared/sidebar";
+import Navbar from "@/components/shared/navbar";
 import { ReactNode } from "react";
 
 const MainLayout = ({children} : {children:ReactNode}) => {
     return ( 
         <div>
-           <SideBar/>
+           <Navbar/>
             {children}
         </div>
      );

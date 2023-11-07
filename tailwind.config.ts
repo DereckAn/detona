@@ -12,7 +12,11 @@ const config: Config = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-        detonaclean: "url('/detonaclean/assets/Detona Cover.png')", // Add this line
+      },
+      colors: {
+        primary:'#fca311',
+        dark: '#121212',
+        'dark-light': '#181818'
       },
     },
   },

@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import { Figtree } from "next/font/google";
+import { Montserrat } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/libs/utils";
 
-const font = Figtree({ subsets: ["latin"] });
+const font = Montserrat({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Detona Clean",
