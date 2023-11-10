@@ -14,7 +14,6 @@ const AboutUs = () => {
               objectFit="cover"
               objectPosition="center"
               className="rounded-xl"
-
             />
           </div>
           <div className="basis-1/2 max-w-md space-y-5 flex flex-col justify-center">

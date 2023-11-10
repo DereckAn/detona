@@ -12,6 +12,7 @@ import {
 import { TbBrandNextjs } from "react-icons/tb";
 import { GrArchlinux } from "react-icons/gr";
 import { BsFiletypeCss, BsFiletypeSql, BsGit } from "react-icons/bs";
+import { room, sala, sala2, sala3 } from "./images";
 
 export const routes = [
   {
@@ -60,6 +61,21 @@ export const abilities = [
     title: "Organized Home",
     description:
       "Our cleaning solutions help you organize your home, ensuring that every item has its place and is easily accessible.",
+  },
+];
+
+export const services = [
+  {
+    image: sala3,
+    title: "We wash your carpet",
+  },
+  {
+    image: sala,
+    title: "Arragment of your home",
+  },
+  {
+    image: sala2,
+    title: "Deep cleaning of your home",
   },
 ];
 
