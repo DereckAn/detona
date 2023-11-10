@@ -5,6 +5,8 @@ import Texto from "./sections/texto";
 import Abilities from "./sections/abilities";
 import Services from "./sections/services";
 import TwoPictures from "./sections/twopictures";
+import FriendlyEnviroment from "./sections/friendlyenvi";
+import Reviews from "./sections/reviews";
 
 export default function Home() {
   return (
@@ -15,7 +17,11 @@ export default function Home() {
       <Texto />
       <Abilities />
       <Services />
-      <TwoPictures />   
+      <TwoPictures />  
+      <Services />
+      <FriendlyEnviroment />
+      <Reviews />
+
     </>
   );
 }

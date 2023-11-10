@@ -79,6 +79,29 @@ export const services = [
   },
 ];
 
+export const cardclean = [
+  {
+    image: sala3,
+    title: "Clean",
+    description: "We wash your carpet",
+  },
+  {
+    image: sala,
+    title: "Arragment",
+    description: "We wash your carpet",
+
+  },
+];
+
+export const reviews = [
+  {
+    text:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, diam quis accumsan fermentum, odio nibh ultricies nunc, quis aliquam nisl nunc quis nunc. Sed euismod, diam quis accumsan fermentum, odio nibh ultricies nunc, quis aliquam nisl nunc quis nunc.",
+    name:"Elba Moreno",
+    job:"SEO, ElementumUI",
+    image: sala3,
+  }
+];
+
 export const tecnologies = [
   {
     name: "HTML",

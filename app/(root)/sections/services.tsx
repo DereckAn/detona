@@ -4,7 +4,7 @@ import Container from "@/components/ui/container";
 
 const Services = () => {
   return (
-    <section>
+    <section className="bg-white">
       <Container>
         <div className="flex justify-between">
           <h2 className="text-2xl">Services</h2>
