@@ -4,5 +4,6 @@ import logo from "./logo.webp";
 import logoBlack from "./logo_black.webp";
 import vacu from "./vacu.webp";
 import asp from "./asp.webp";
+import room from "./room.webp";
 
-export { larga, trap, logo, logoBlack, vacu, asp };
+export { larga, trap, logo, logoBlack, vacu, asp, room };

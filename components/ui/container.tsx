@@ -9,7 +9,7 @@ const Container = ({
   className?: string;
 }) => {
   return (
-    <div className={cn("container px-[5vw] xl:px-[20vw] py-5 lg:py-8", className)}>
+    <div className={cn("px-[5vw] xl:px-[20vw] py-5 lg:py-8 ", className)}>
       {children}
     </div>
   );

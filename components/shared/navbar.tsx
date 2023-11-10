@@ -21,7 +21,7 @@ const Navbar = () => {
       </div>
 
       <div
-        className="basis-1/2 flex justify-end items-center gap-5 mr-10"
+        className="basis-1/2 flex justify-end items-center gap-7 mr-10"
         id="qwe"
       >
         <button className=" ">{routes[4].name}</button>

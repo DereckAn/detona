@@ -8,34 +8,32 @@ body,
   height: 100%;
 }
 
-/* :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+
+.logos {
+  overflow: hidden;
+  white-space: nowrap;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+.logos-slide {
+  display: inline-block;
+  animation: logos-scroll 15s infinite linear;
+} 
+
+.logos-slide svg {
+  height: 50px;
+  margin: 0 40px;
+  display: inline-block;
+  /* border: 1px solid #ccc; */
+}
+
+
+@keyframes logos-scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
 
-.blueee{
-  background-image: "detonaclean/assets/Detona Cover.png" ;
-}
-
-.text-shadow {
-  text-shadow: 2px 2px 4px rgb(0, 0, 0);
-} */
