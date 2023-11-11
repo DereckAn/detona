@@ -26,10 +26,10 @@ const HeroSection = () => {
               choose from.
             </p>
           <div className="space-x-6 ">
-            <button className="bg-white px-7 py-4 rounded-md">
+            <button className="px-7 py-4 rounded-md border-2 text-white hover:text-black hover:bg-white">
               Contact Us
             </button>
-            <button className="bg-white  px-7 py-4 rounded-md">
+            <button className="px-7 py-4 rounded-md border-2 text-white hover:text-black hover:bg-white">
               Services
             </button>
           </div>

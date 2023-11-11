@@ -9,5 +9,6 @@ import sala from "./sala.webp";
 import sala2 from "./sala2.webp";
 import sala3 from "./sala3.webp";
 import planty from "./planty.webp";
+import asp2 from "./asp2.webp";
 
-export { larga, trap, logo, logoBlack, vacu, asp, room, sala, sala2, sala3, planty };
+export { larga, trap, logo, logoBlack, vacu, asp, room, sala, sala2, sala3, planty, asp2 };
