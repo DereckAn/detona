@@ -5,7 +5,7 @@ import { cn } from "@/libs/utils";
 
 const font = Poppins({
   subsets: ["latin"],
-  weight: "500"
+  weight: "300"
 });
 
 export const metadata: Metadata = {

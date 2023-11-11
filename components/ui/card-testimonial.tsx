@@ -9,7 +9,7 @@ interface Testimonial2Props {
 
 const Testimonial2 = ( {text, name, job, image} : Testimonial2Props) => {
   return (
-    <div className="flex flex-col gap-6 bg-white dark:bg-[#202023] p-8 rounded-xl drop-shadow-xl max-w-lg">
+    <div className="flex flex-col gap-6 bg-secondary  p-8 rounded-xl drop-shadow-xl max-w-lg justify-between">
       <p className="text-gray-400">
         {text}
       </p>
@@ -25,7 +25,7 @@ const Testimonial2 = ( {text, name, job, image} : Testimonial2Props) => {
         </div>
         <div>
           <h3 className="text-indigo-500 font-bold">{name}</h3>
-          <p className="text-gray-500 dark:text-white font-medium">{job}</p>
+          <p className="text-gray-500 font-medium">{job}</p>
         </div>
       </div>
     </div>

@@ -89,17 +89,24 @@ export const cardclean = [
     image: sala,
     title: "Arragment",
     description: "We wash your carpet",
-
   },
 ];
 
-export const reviews = [
+export const reviews = [ // Tengo que cambiar esto para que las recoja desde google y nop las tenga que esta actualizando a mano. 
   {
-    text:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, diam quis accumsan fermentum, odio nibh ultricies nunc, quis aliquam nisl nunc quis nunc. Sed euismod, diam quis accumsan fermentum, odio nibh ultricies nunc, quis aliquam nisl nunc quis nunc.",
-    name:"Elba Moreno",
-    job:"SEO, ElementumUI",
+    text:
+      "They did an excellent job deep cleaning my kitchen. Professional and friendly.",
+    name: "Wabasha",
+    job: "SEO, ElementumUI",
     image: sala3,
-  }
+  },
+  {
+    text:
+      "Max is AMAZING and the best local carpet cleaner here in Utah and has competitive pricing. Book him for your home and car carpet cleaning!  He cleaned my parent’s basement n detailed my car and they both look brand new!",
+    name: "Loa Kauvaka",
+    job: "SEO, ElementumUI",
+    image: sala3,
+  },
 ];
 
 export const tecnologies = [
