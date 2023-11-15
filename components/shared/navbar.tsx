@@ -1,35 +1,75 @@
+"use client";
 import { logoBlack } from "@/assets/images";
 import { routes } from "@/assets/constants";
 import Image from "next/image";
 import { BsFillCalendarCheckFill, BsFillPersonFill } from "react-icons/bs";
 import { FiAlignLeft } from "react-icons/fi";
+import { useState } from "react";
+import Link from "next/link";
 
 const Navbar = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const handleMenuClick = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
   return (
-    <div className="md:flex items-center fixed w-full top-0 z-50 bg-white " id="hola">
+    <div
+      className="flex items-center fixed w-full top-0 z-50 bg-white "
+      id="hola"
+    >
       <div className="flex text-xl items-center basis-1/2 ml-8" id="asd">
-        <Image
-          src={logoBlack}
-          alt="Logo"
-          width={180}
-          height={100}
-          className=" mr-16 object-cover "
-        />
+        <Link href="/">
+          <Image
+            src={logoBlack}
+            alt="Logo"
+            width={180}
+            height={100}
+            className=" mr-16 object-cover "
+          />
+        </Link>
         <ul className="md:flex gap-5 hidden ">
-          <li>{routes[3].name}</li>
-          <li>{routes[0].name}</li>
+          <li>
+            <Link href={"./aboutus"}>{routes[3].name}</Link>
+          </li>
+          <li>
+            <Link href={"./services"}>{routes[0].name}</Link>
+          </li>
         </ul>
       </div>
 
       <div
-        className="basis-1/2 flex justify-end items-center gap-7 mr-10"
+        className="basis-1/2 flex justify-end items-center gap-7 mr-10 "
         id="qwe"
       >
-        <button className=" ">{routes[4].name}</button>
-        <BsFillCalendarCheckFill size={28} className="hidden md:block" />
-        <BsFillPersonFill size={28} className=" hidden md:block" />
-        <FiAlignLeft  size={20} className="block md:hidden" />
+        <Link
+          href={"./contactus"}
+          className=" font-bold border-2 p-2 rounded-xl hover:bg-black hover:text-white transition-all duration-300 "
+        >
+          {routes[4].name}
+        </Link>
+        <Link href={"./calendar"}>
+          <BsFillCalendarCheckFill size={30} className="hidden md:block" />
+        </Link>
+        <BsFillPersonFill size={30} className=" hidden md:block" />
+        <FiAlignLeft
+          size={30}
+          className="block md:hidden"
+          onclick={handleMenuClick}
+        />
       </div>
+      {isMenuOpen && (
+        <div className="">
+          <ul>
+            <li>
+              <Link href={"./aboutus"}>{routes[3].name}</Link>
+            </li>
+            <li>
+              <Link href={"./services"}>{routes[0].name}</Link>
+            </li>
+          </ul>
+        </div>
+      )}
     </div>
   );
 };
