@@ -14,6 +14,15 @@ body,
   white-space: nowrap;
 }
 
+.logos2{
+  overflow: hidden;
+}
+
+.logos-slide2 {
+  display: flex;
+  animation: logos-scroll 40s infinite linear;
+} 
+
 .logos-slide {
   display: inline-block;
   animation: logos-scroll 15s infinite linear;

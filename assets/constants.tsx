@@ -97,14 +97,40 @@ export const reviews = [ // Tengo que cambiar esto para que las recoja desde goo
     text:
       "They did an excellent job deep cleaning my kitchen. Professional and friendly.",
     name: "Wabasha",
-    job: "SEO, ElementumUI",
+    date: "Hace 2 años",
+    stars: 5,
     image: sala3,
   },
   {
     text:
       "Max is AMAZING and the best local carpet cleaner here in Utah and has competitive pricing. Book him for your home and car carpet cleaning!  He cleaned my parent’s basement n detailed my car and they both look brand new!",
     name: "Loa Kauvaka",
-    job: "SEO, ElementumUI",
+    date: "Hace 2 años",
+    stars: 4,
+    image: sala3,
+  },
+  {
+    text:
+      "Fueron tan rápidos en programar el último minuto, muy complacientes con mi horario. Tuve que cambiar la hora y aún no estaba listo cuando llegaron, ¡pero solucionaron mi pobre programación e hicieron un trabajo fantástico!",
+    name: "Whitney Rose",
+    date: "Hace 2 años",
+    stars: 5,
+    image: sala3,
+  },
+  {
+    text:
+      "Ellos hacen un excelente trabajo. Muy profesional y el precio es correcto ",
+    name: "Cassia Da Silva",
+    date: "Hace 2 años",
+    stars: 1,
+    image: sala3,
+  },
+  {
+    text:
+      "Fueron tan rápidos en programar el último minuto, muy complacientes con mi horario. Tuve que cambiar la hora y aún no estaba listo cuando llegaron, ¡pero solucionaron mi pobre programación e hicieron un trabajo fantástico!",
+    name: "Whitney Rose",
+    date: "SEO, ElementumUI",
+    stars: 5,
     image: sala3,
   },
 ];
