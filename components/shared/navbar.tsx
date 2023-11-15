@@ -2,19 +2,20 @@ import { logoBlack } from "@/assets/images";
 import { routes } from "@/assets/constants";
 import Image from "next/image";
 import { BsFillCalendarCheckFill, BsFillPersonFill } from "react-icons/bs";
+import { FiAlignLeft } from "react-icons/fi";
 
 const Navbar = () => {
   return (
-    <div className="md:flex items-center py-4" id="hola">
-      <div className="flex text-xl items-center basis-1/2 ml-10" id="asd">
+    <div className="md:flex items-center fixed w-full top-0 z-50 bg-white " id="hola">
+      <div className="flex text-xl items-center basis-1/2 ml-8" id="asd">
         <Image
           src={logoBlack}
           alt="Logo"
-          width={100}
+          width={180}
           height={100}
-          className="border mr-16"
+          className=" mr-16 object-cover "
         />
-        <ul className="flex gap-5">
+        <ul className="md:flex gap-5 hidden ">
           <li>{routes[3].name}</li>
           <li>{routes[0].name}</li>
         </ul>
@@ -25,8 +26,9 @@ const Navbar = () => {
         id="qwe"
       >
         <button className=" ">{routes[4].name}</button>
-        <BsFillCalendarCheckFill size={28} />
-        <BsFillPersonFill size={28} />
+        <BsFillCalendarCheckFill size={28} className="hidden md:block" />
+        <BsFillPersonFill size={28} className=" hidden md:block" />
+        <FiAlignLeft  size={20} className="block md:hidden" />
       </div>
     </div>
   );

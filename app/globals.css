@@ -25,7 +25,7 @@ body,
 
 .logos-slide {
   display: inline-block;
-  animation: logos-scroll 15s infinite linear;
+  animation: logos-scroll 20s infinite linear;
 } 
 
 .logos-slide svg {

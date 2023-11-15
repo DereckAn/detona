@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const HeroSection = () => {
   return (
-    <section className="bg-white  flex items-center relative ">
+    <section className="bg-white  flex items-center relative mt-[100px] ">
       <Image
         src={asp}
         alt="hero image"
