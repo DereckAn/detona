@@ -12,7 +12,7 @@ import {
 import { TbBrandNextjs } from "react-icons/tb";
 import { GrArchlinux } from "react-icons/gr";
 import { BsFiletypeCss, BsFiletypeSql, BsGit } from "react-icons/bs";
-import { room, sala, sala2, sala3 } from "./images";
+import { sala, sala2, sala3 } from "./images";
 
 export const routes = [
   {

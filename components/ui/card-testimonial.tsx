@@ -1,18 +1,17 @@
-import Image, { StaticImageData } from 'next/image';
+import Image, { StaticImageData } from "next/image";
+import StarRatingDynamic from "./startratingdinamic";
 
 interface Testimonial2Props {
-    text:string,
-    name:string,
-    job:string,
-    image:StaticImageData,
-};
+  text: string;
+  name: string;
+  job: string;
+  image: StaticImageData;
+}
 
-const Testimonial2 = ( {text, name, job, image} : Testimonial2Props) => {
+const Testimonial2 = ({ text, name, job, image }: Testimonial2Props) => {
   return (
     <div className="flex flex-col gap-6 bg-secondary  p-8 rounded-xl drop-shadow-xl max-w-lg justify-between">
-      <p className="text-gray-400">
-        {text}
-      </p>
+      <p className="text-gray-400">{text}</p>
       <div className="flex items-center gap-4">
         <div className="relative w-16 h-16">
           <Image
@@ -27,6 +26,11 @@ const Testimonial2 = ( {text, name, job, image} : Testimonial2Props) => {
           <h3 className="text-indigo-500 font-bold">{name}</h3>
           <p className="text-gray-500 font-medium">{job}</p>
         </div>
+      </div>
+
+      <div>
+        {/* <ReactStars count={5} size={24} color2={"#ffd700"} /> */}
+        <StarRatingDynamic />
       </div>
     </div>
   );
