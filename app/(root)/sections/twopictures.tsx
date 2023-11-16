@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const TwoPictures = () => {
   return (
-    <section className="flex py-20 px-5 flex-col md:flex-row items-center justify-center gap-10 bg-white ">
+    <section className="flex py-20 px-5 flex-col md:flex-row items-center justify-center gap-10 bg-secondary ">
       {/* <div className=" rounded-xl h-96 ">
         <Image
           src={sala3}

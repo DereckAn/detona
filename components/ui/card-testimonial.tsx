@@ -11,8 +11,8 @@ interface Testimonial2Props {
 
 const Testimonial2 = ({ text, name, date, image, stars }: Testimonial2Props) => {
   return (
-    <div className="flex flex-col gap-6 bg-secondary  p-8 rounded-xl drop-shadow-xl max-w-lg justify-between h-[350px] w-[500px] ">
-      <p className="text-gray-400">{text}</p>
+    <div className="flex flex-col gap-6 bg-third  p-8 rounded-xl drop-shadow-xl max-w-lg justify-between h-[350px] w-[500px] ">
+      <p className="text-gray-80000">{text}</p>
       <div className="flex items-center gap-4">
         <div className="relative w-16 h-16">
           <Image

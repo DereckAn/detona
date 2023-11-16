@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const HeroSection = () => {
   return (
-    <section className="bg-white  flex items-center relative mt-[100px] ">
+    <section className="bg-white  flex items-center relative sm:mt-[104px] ">
       <Image
         src={asp}
         alt="hero image"
@@ -26,10 +26,10 @@ const HeroSection = () => {
               choose from.
             </p>
           <div className="space-x-6 ">
-            <button className="px-7 py-4 rounded-md border-2 text-white hover:text-black hover:bg-white">
+            <button className="px-7 py-4 rounded-md border-2 text-white hover:text-black hover:bg-third">
               Contact Us
             </button>
-            <button className="px-7 py-4 rounded-md border-2 text-white hover:text-black hover:bg-white">
+            <button className="px-7 py-4 rounded-md border-2 text-white hover:text-black hover:bg-third">
               Services
             </button>
           </div>

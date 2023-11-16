@@ -4,7 +4,7 @@ import Container from "@/components/ui/container";
 
 const Reviews = () => {
   return (
-    <section className="bg-white py-20 ">
+    <section className="bg-primary py-20 ">
       <Container className="space-y-5 w-full">
         <div className=" flex items-center justify-center ">
           <h2 className="text-4xl font-extrabold">

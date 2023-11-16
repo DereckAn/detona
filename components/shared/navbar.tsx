@@ -1,5 +1,5 @@
 "use client";
-import { logoBlack } from "@/assets/images";
+import { detona } from "@/assets/images";
 import { routes } from "@/assets/constants";
 import Image from "next/image";
 import { BsFillCalendarCheckFill, BsFillPersonFill } from "react-icons/bs";
@@ -15,13 +15,13 @@ const Navbar = () => {
   };
   return (
     <div
-      className="flex items-center fixed w-full top-0 z-50 bg-white "
+      className="flex items-center fixed w-full top-0 z-50 bg-primary "
       id="hola"
     >
       <div className="flex text-xl items-center basis-1/2 ml-8" id="asd">
         <Link href="/">
           <Image
-            src={logoBlack}
+            src={detona}
             alt="Logo"
             width={180}
             height={100}
@@ -44,7 +44,7 @@ const Navbar = () => {
       >
         <Link
           href={"./contactus"}
-          className=" font-bold border-2 p-2 rounded-xl hover:bg-black hover:text-white transition-all duration-300 "
+          className=" font-bold border-2 p-2 rounded-xl hover:bg-secondary hover:text-white transition-all duration-300 "
         >
           {routes[4].name}
         </Link>
