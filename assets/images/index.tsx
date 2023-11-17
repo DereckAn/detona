@@ -12,5 +12,24 @@ import planty from "./planty.webp";
 import asp2 from "./asp2.webp";
 import logo2 from "../../app/favicon.ico";
 import detona from "./detona.ico";
+import brum from "./brum.webp";
+import output from "./output.ico";
 
-export { larga, trap, logo, logoBlack, vacu, asp, room, sala, sala2, sala3, planty, asp2, logo2, detona };
+export {
+  larga,
+  trap,
+  logo,
+  logoBlack,
+  vacu,
+  asp,
+  room,
+  sala,
+  sala2,
+  sala3,
+  planty,
+  asp2,
+  logo2,
+  detona,
+  brum,
+  output,
+};

@@ -12,7 +12,7 @@ import {
 import { TbBrandNextjs } from "react-icons/tb";
 import { GrArchlinux } from "react-icons/gr";
 import { BsFiletypeCss, BsFiletypeSql, BsGit } from "react-icons/bs";
-import { sala, sala2, sala3 } from "./images";
+import { brum, output, planty, sala, sala2, sala3 } from "./images";
 
 export const routes = [
   {
@@ -92,7 +92,8 @@ export const cardclean = [
   },
 ];
 
-export const reviews = [ // Tengo que cambiar esto para que las recoja desde google y nop las tenga que esta actualizando a mano. 
+export const reviews = [
+  // Tengo que cambiar esto para que las recoja desde google y nop las tenga que esta actualizando a mano.
   {
     text:
       "They did an excellent job deep cleaning my kitchen. Professional and friendly.",
@@ -132,6 +133,81 @@ export const reviews = [ // Tengo que cambiar esto para que las recoja desde goo
     date: "Hace 2 años",
     stars: 5,
     image: sala3,
+  },
+];
+
+export const services2 = [
+  {
+    image: planty,
+    icon: brum,
+    title: "Residential",
+    list: [
+      "Regular Cleaning",
+      "Deep Cleaning",
+      "Move In/Out Cleaning",
+      "Post Construction Cleaning",
+    ],
+  },
+  {
+    image: planty,
+    icon: output,
+    title: "Commercial",
+    list: [
+      "Regular Cleaning",
+      "Deep Cleaning",
+      "Move In/Out Cleaning",
+      "Post Construction Cleaning",
+    ],
+  },
+  {
+    image: planty,
+    icon: brum,
+    title: "Stores",
+    list: [
+      "Regular Cleaning",
+      "Deep Cleaning",
+      "Move In/Out Cleaning",
+      "Post Construction Cleaning",
+    ],
+  },
+  {
+    image: planty,
+    icon: brum,
+    title: "Covid-19",
+    list: [
+      "Regular Cleaning",
+      "Deep Cleaning",
+      "Move In/Out Cleaning",
+      "Post Construction Cleaning",
+    ],
+  },
+];
+
+export const informationservice = [
+  {
+    title: "Payments",
+    description:
+      "we accept by-weekly or monthly payments, checks, online payments, and automatic payments. we do not charge sales taxes or fees.",
+    image: sala3,
+    id: 1,
+  },
+  {
+    title: "Regular Cleaning",
+    description: "We wash your carpet",
+    image: sala3,
+    id: 2,
+  },
+  {
+    title: "Regular Cleaning",
+    description: "We wash your carpet",
+    image: sala3,
+    id: 3,
+  },
+  {
+    title: "Regular Cleaning",
+    description: "We wash your carpet",
+    image: sala3,
+    id: 4,
   },
 ];
 

@@ -3,7 +3,7 @@ import CardAbilities from "@/components/ui/card-abilities";
 
 const Abilities = () => {
   return (
-    <section className="bg-third">
+    <section className="bg-fourth">
       <div className="grid md:grid-cols-2  gap-5 px-20 ">
         {abilities.map((ability) => (
             <CardAbilities key={ability.id} {...ability} />

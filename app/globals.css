@@ -35,6 +35,15 @@ body,
   /* border: 1px solid #ccc; */
 }
 
+.custom-list {
+  list-style-type: none;
+}
+
+.custom-list li::before {
+  content: "• ";
+  font-size: 20px;
+}
+
 
 @keyframes logos-scroll {
   from {

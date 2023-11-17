@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const AboutUs = () => {
   return (
-    <section className="bg-third py-14">
+    <section className="bg-fourth py-14">
       <Container>
         <div className="flex gap-6 flex-col md:flex-row ">
           <div className="relative w-92  basis-1/2 flex justify-end pr-10 rounded-xl">

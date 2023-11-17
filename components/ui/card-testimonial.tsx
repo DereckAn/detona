@@ -11,7 +11,7 @@ interface Testimonial2Props {
 
 const Testimonial2 = ({ text, name, date, image, stars }: Testimonial2Props) => {
   return (
-    <div className="flex flex-col gap-6 bg-third  p-8 rounded-xl drop-shadow-xl max-w-lg justify-between h-[350px] w-[500px] ">
+    <div className="flex flex-col gap-6 bg-fourth  p-8 rounded-xl drop-shadow-xl max-w-lg justify-between h-[300px] w-[500px] ">
       <p className="text-gray-80000">{text}</p>
       <div className="flex items-center gap-4">
         <div className="relative w-16 h-16">
@@ -24,15 +24,14 @@ const Testimonial2 = ({ text, name, date, image, stars }: Testimonial2Props) => 
           />
         </div>
         <div>
-          <h3 className="text-indigo-500 font-bold">{name}</h3>
-          <p className="text-gray-500 font-medium">{date}</p>
+          <h3 className="text-blue-700 font-bold text-lg">{name}</h3>
+           <FixStarRating stars={stars} />
         </div>
       </div>
 
-      <div>
-        {/* <StarRatingDynamic /> */}
+      {/* <div>
         <FixStarRating stars={stars} />
-      </div>
+      </div> */}
     </div>
   );
 };

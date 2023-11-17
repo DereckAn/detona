@@ -12,7 +12,10 @@ const config: Config = {
         primary:'#f6f8ee',
         secondary: '#b8cabe',
         third: '#FAF3DD',
-        dark: '#121212',
+        fourth: '#8FC1B5',
+        gren: '#589A8D',
+        blu: '#3F7C85',
+
         'dark-light': '#181818'
       },
     },
