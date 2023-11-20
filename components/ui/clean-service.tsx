@@ -1,6 +1,4 @@
 import Image, { StaticImageData } from "next/image";
-import Container from "./container";
-import { room } from "@/assets/images";
 
 interface CleanServiceProps {
   title: string;
