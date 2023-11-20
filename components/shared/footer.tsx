@@ -1,5 +1,6 @@
 import { asp2 } from "@/assets/images";
 import Image from "next/image";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -27,13 +28,18 @@ const Footer = () => {
             for you and your family.
           </p>
           <div className="space-x-6 pt-6">
-          <button className=" px-7 py-4 rounded-md border-2 text-white hover:text-black hover:bg-third">
+            <Link
+              href={"./contactus"}
+              className="px-7 py-4 rounded-md border-2 text-white hover:text-black hover:bg-third"
+            >
               Contact Us
-            </button>
-            <button className="px-7 py-4 rounded-md border-2 text-white hover:text-black hover:bg-third">
+            </Link>
+            <Link
+              href={"./services"}
+              className="px-7 py-4 rounded-md border-2 text-white hover:text-black hover:bg-third"
+            >
               Services
-            </button>
-
+            </Link>
           </div>
         </div>
       </div>

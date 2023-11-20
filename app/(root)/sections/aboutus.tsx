@@ -1,6 +1,7 @@
 import { room } from "@/assets/images";
 import Container from "@/components/ui/container";
 import Image from "next/image";
+import Link from "next/link";
 
 const AboutUs = () => {
   return (
@@ -28,9 +29,9 @@ const AboutUs = () => {
               what sets us apart.
             </p>
             <div className="flex justify-start">
-              <button className="hover:text-blue-500 underline">
+              <Link href={"./aboutus"} className="hover:text-blue-500 underline">
                 READ MORE
-              </button>
+              </Link>
             </div>
           </div>
         </div>
