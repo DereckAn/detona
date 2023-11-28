@@ -1,8 +1,7 @@
-import Container from "@/components/ui/container";
 
 const Texto = () => {
   return (
-    <section className="bg-fourth ">
+    <section className="bg-blu  text-gold">
       <div className="px-20 space-y-8 py-20">
         <h2 className="text-4xl sm:text-center tracking-wider">
           Experience the Difference with Detona Clean

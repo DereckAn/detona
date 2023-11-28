@@ -29,7 +29,7 @@ const Reviews = () => {
       </div>
       <div className="flex items-center justify-center py-5 ">
         <p className="text-xl font-bold">
-          4.8 average rating from 1814 reviews
+          5.0 average rating from 1814 reviews
         </p>
       </div>
     </section>

@@ -44,7 +44,7 @@ const Navbar = () => {
       >
         <Link
           href={"./contactus"}
-          className=" font-bold border-2 p-2 rounded-xl hover:bg-secondary hover:text-white transition-all duration-300 "
+          className=" font-bold border-2 p-2 rounded-xl hover:bg-blu2 hover:text-gold transition-all duration-300 "
         >
           {routes[4].name}
         </Link>
