@@ -1,17 +1,28 @@
 import { AiOutlineHtml5 } from "react-icons/ai";
-import { SiDart, SiFastapi, SiGnubash } from "react-icons/si";
 import {
-  BiLogoJavascript,
   BiLogoFlutter,
-  BiLogoReact,
-  BiLogoPython,
-  BiLogoTailwindCss,
   BiLogoJava,
+  BiLogoJavascript,
+  BiLogoPython,
+  BiLogoReact,
+  BiLogoTailwindCss,
   BiLogoTypescript,
 } from "react-icons/bi";
-import { TbBrandNextjs } from "react-icons/tb";
+import {
+  BsFiletypeCss,
+  BsFiletypeSql,
+  BsFillTelephoneFill,
+  BsGit,
+} from "react-icons/bs";
 import { GrArchlinux } from "react-icons/gr";
-import { BsFiletypeCss, BsFiletypeSql, BsGit } from "react-icons/bs";
+import {
+  SiDart,
+  SiFastapi,
+  SiGnubash,
+  SiGooglemaps,
+  SiMaildotru,
+} from "react-icons/si";
+import { TbBrandNextjs } from "react-icons/tb";
 import { brum, output, planty, sala, sala2, sala3 } from "./images";
 
 export const routes = [
@@ -128,7 +139,7 @@ export const reviews = [
   },
   {
     text:
-      "Fueron tan rápidos en programar el último minuto, muy complacientes con mi horario. Tuve que cambiar la hora y aún no estaba listo cuando llegaron, ¡pero solucionaron mi pobre programación e hicieron un trabajo fantástico!",
+      "Fueron a tan rápidos en programar el último minuto, muy complacientes con mi horario. Tuve que cambiar la hora y aún no estaba listo cuando llegaron, ¡pero solucionaron mi pobre programación e hicieron un trabajo fantástico!",
     name: "Whitney Rose",
     date: "Hace 2 años",
     stars: 5,
@@ -173,7 +184,7 @@ export const services2 = [
   {
     image: planty,
     icon: brum,
-    title: "Covid-19",
+    title: "Stores",
     list: [
       "Regular Cleaning",
       "Deep Cleaning",
@@ -208,6 +219,24 @@ export const informationservice = [
     description: "We wash your carpet",
     image: sala3,
     id: 4,
+  },
+];
+
+export const cardinfo = [
+  {
+    name: "Address",
+    info: "142 W 4450 S Salt Lake City, UT",
+    icon: SiGooglemaps,
+  },
+  {
+    name: "Telephone",
+    info: "(385) 233-7207",
+    icon: BsFillTelephoneFill,
+  },
+  {
+    name: "E-mail",
+    info: "info@detonaclean.com",
+    icon: SiMaildotru,
   },
 ];
 

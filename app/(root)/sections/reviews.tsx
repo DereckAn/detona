@@ -15,7 +15,7 @@ const Reviews = () => {
       <div className="py-10 logos2 ">
         <div className="flex gap-5 py-10 logos-slide2">
           {reviews.map((review) => (
-            <div key={review.name} className="">
+            <div key={review.text} className="">
               <Testimonial2  {...review} />
             </div>
           ))}
@@ -29,7 +29,7 @@ const Reviews = () => {
       </div>
       <div className="flex items-center justify-center py-5 ">
         <p className="text-xl font-bold">
-          4.8 average rating from 1814 reviews
+          5.0 average rating from 1814 reviews
         </p>
       </div>
     </section>

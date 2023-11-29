@@ -1,5 +1,4 @@
 import HeroSection from "./sections/herosection";
-import Compoanies from "./sections/companies";
 import AboutUs from "./sections/aboutus";
 import Texto from "./sections/texto";
 import Abilities from "./sections/abilities";
@@ -12,12 +11,12 @@ export default function Home() {
   return (
     <>
       <HeroSection />
-      <Compoanies />
+      <div className="py-12 bg-[#5E442E]"/>
       <AboutUs />
       <Texto />
       <Abilities />
       <Services />
-      <TwoPictures />  
+      <TwoPictures />
       <Services />
       <FriendlyEnviroment />
       <Reviews />

@@ -14,6 +14,7 @@ import logo2 from "../../app/favicon.ico";
 import detona from "./detona.ico";
 import brum from "./brum.webp";
 import output from "./output.ico";
+import sl from "./sl.webp";
 
 export {
   larga,
@@ -32,4 +33,5 @@ export {
   detona,
   brum,
   output,
+  sl,
 };

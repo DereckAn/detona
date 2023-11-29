@@ -15,7 +15,7 @@ const Navbar = () => {
   };
   return (
     <div
-      className="flex items-center fixed w-full top-0 z-50 bg-primary "
+      className="flex items-center fixed w-full top-0 z-50 bg-white"
       id="hola"
     >
       <div className="flex text-xl items-center basis-1/2 ml-8" id="asd">
@@ -24,8 +24,9 @@ const Navbar = () => {
             src={detona}
             alt="Logo"
             width={180}
-            height={100}
             className=" mr-16 object-cover "
+            sizes="100%"
+            // priority={true}
           />
         </Link>
         <ul className="md:flex gap-5 hidden ">
@@ -44,7 +45,7 @@ const Navbar = () => {
       >
         <Link
           href={"./contactus"}
-          className=" font-bold border-2 p-2 rounded-xl hover:bg-secondary hover:text-white transition-all duration-300 "
+          className=" font-bold border-2 p-2 rounded-xl hover:bg-blu2 hover:text-gold transition-all duration-300 "
         >
           {routes[4].name}
         </Link>
@@ -55,7 +56,7 @@ const Navbar = () => {
         <FiAlignLeft
           size={30}
           className="block md:hidden"
-          onclick={handleMenuClick}
+          onClick={handleMenuClick}
         />
       </div>
       {isMenuOpen && (

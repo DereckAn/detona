@@ -9,14 +9,13 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        primary:'#f6f8ee',
+        primary:'#75553350',
         secondary: '#b8cabe',
-        third: '#FAF3DD',
-        fourth: '#8FC1B5',
-        gren: '#589A8D',
-        blu: '#3F7C85',
-
-        'dark-light': '#181818'
+        fourth: '#FAF3DD',
+        blu2: '#02273F',
+        blu: '#021930',
+        gold: '#BB8F67',
+        goldf: '#5E442E',
       },
     },
   },
