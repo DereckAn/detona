@@ -1,6 +1,4 @@
 import Image, { StaticImageData } from "next/image";
-import Container from "./container";
-import { room } from "@/assets/images";
 
 interface CleanServiceProps {
   title: string;
@@ -16,7 +14,7 @@ const CleanService = ({title, description, image, id} : CleanServiceProps) => {
         <>
           <div className="flex flex-col" id="dos">
             <h2 className="text-2xl font-bold">{title}</h2>
-            <p className="max-w-2xl">
+            <p className="max-w-xl">
               {description}
             </p>
           </div>
@@ -43,7 +41,7 @@ const CleanService = ({title, description, image, id} : CleanServiceProps) => {
           </div>
           <div className="flex flex-col" id="dos">
             <h2 className="text-2xl font-bold">{title}</h2>
-            <p className="max-w-2xl">
+            <p className="max-w-xl">
               {description}
             </p>
           </div>
