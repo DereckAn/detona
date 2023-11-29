@@ -11,12 +11,11 @@ const config: Config = {
       colors: {
         primary:'#75553350',
         secondary: '#b8cabe',
-        fourth: '#8FC1B5',
+        fourth: '#aa8064',
         blu2: '#02273F',
         blu: '#021930',
         gold: '#BB8F67',
         goldf: '#5E442E',
-        gold2:"#B29600",
       },
     },
   },

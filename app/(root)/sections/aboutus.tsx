@@ -39,7 +39,7 @@ const AboutUs = () => {
                 className=" underline hover:text-blue-600"
                 href={"./aboutus"}
               >
-                VIEW ALL SERVICES
+                VIEW MORE
               </Link>
             </div>
           </div>

@@ -9,7 +9,7 @@ interface CleanServiceProps {
 
 const CleanService = ({title, description, image, id} : CleanServiceProps) => {
   return (
-    <div className="bg-third py-14 flex flex-row items-center justify-evenly">
+    <div className="bg-secondary py-14 flex flex-row items-center justify-evenly">
       {id % 2 === 0 ? (
         <>
           <div className="flex flex-col" id="dos">

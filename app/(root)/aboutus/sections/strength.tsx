@@ -15,11 +15,7 @@ const Strenth = () => {
       <div className="absolute w-full h-full bg-black opacity-20 z-10"></div>
 
       <div
-        className="flex flex-col rounded-2xl z-10 max-w-2xl lg:max-w-5xl "
-        style={{
-          backdropFilter: "blur(10px)",
-          backgroundColor: "rgba(2, 25, 48, 0.4)",
-        }}
+        className="flex flex-col rounded-2xl z-10 max-w-2xl lg:max-w-5xl bg-gold opacity-90  "
       >
         <div className=" rounded-t-2xl  basis-1/2 text-white flex flex-col justify-center items-start space-y-10 py-10 sm:py-52 px-5 sm:px-20 lg:px-52">
           <h3 className="md:text-7xl text-2xl text-ellipsis font-bold ">
