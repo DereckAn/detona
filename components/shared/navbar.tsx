@@ -15,7 +15,7 @@ const Navbar = () => {
   };
   return (
     <div
-      className="flex items-center fixed w-full top-0 z-50 bg-primary "
+      className="flex items-center fixed w-full top-0 z-50 bg-white"
       id="hola"
     >
       <div className="flex text-xl items-center basis-1/2 ml-8" id="asd">

@@ -1,6 +1,7 @@
 import { room } from "@/assets/images";
 import Container from "@/components/ui/container";
 import Image from "next/image";
+import Link from "next/link";
 
 const AboutUs = () => {
   return (
@@ -22,21 +23,24 @@ const AboutUs = () => {
               We started our cleaning business in the early 20s in Provo, UT;
               our first job was carpet cleaning. Then, we found that companies
               were seeking better cleaning quality, so we added cleaning and
-              janitorial services to our portfolio. But since then, we&apos;ve been
-              able to serve property management companies, Airbnbs, and Student
-              housing. First, we wanted to deliver results that exceeded our
-              client&apos;s expectations. We have known since the beginning that
-              customer success is always our success, so we are committed to
-              quality and responsibility. We always promise quality, reliable
+              janitorial services to our portfolio. But since then, we&apos;ve
+              been able to serve property management companies, Airbnbs, and
+              Student housing. First, we wanted to deliver results that exceeded
+              our client&apos;s expectations. We have known since the beginning
+              that customer success is always our success, so we are committed
+              to quality and responsibility. We always promise quality, reliable
               cleaning service so our loyal customers feel special. We work hard
               to be the best. Our products are high-quality and safe. And we
               focus on the details so you have a clean, orderly home or office
               every time.
             </p>
             <div className="flex justify-start">
-              <button className="hover:text-blue-500 underline">
-                READ MORE
-              </button>
+              <Link
+                className=" underline hover:text-blue-600"
+                href={"./aboutus"}
+              >
+                VIEW ALL SERVICES
+              </Link>
             </div>
           </div>
         </div>

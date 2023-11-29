@@ -27,10 +27,10 @@ const Footer = () => {
             for you and your family.
           </p>
           <div className="space-x-6 pt-6">
-          <button className=" px-7 py-4 rounded-md border-2 text-white hover:text-black hover:bg-third">
+          <button className=" px-7 py-4 rounded-md border-2 text-white hover:text-gold hover:bg-blu2 hover:border-0">
               Contact Us
             </button>
-            <button className="px-7 py-4 rounded-md border-2 text-white hover:text-black hover:bg-third">
+            <button className="px-7 py-4 rounded-md border-2 text-white hover:text-gold hover:bg-blu2 hover:border-0">
               Services
             </button>
 

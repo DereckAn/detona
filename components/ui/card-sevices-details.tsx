@@ -1,6 +1,4 @@
 import Image, { StaticImageData } from "next/image";
-// import { GiFloorPolisher, GiVacuumCleaner } from "react-icons/gi";
-
 interface CardServicesDetailsProps {
   image: StaticImageData;
   icon: StaticImageData;
@@ -15,9 +13,9 @@ const CardServicesDetails = ({
   list,
 }: CardServicesDetailsProps) => {
   return (
-    <div className="group content-around bg-gren rounded-2xl hover:bg-blu">
-      <div className="p-5">
-        <div className=" rounded-2xl  overflow-hidden w-80 ">
+    <div className="group hover:pointer-events-auto content-around bg-blu2 rounded-2xl hover:bg-blu hover:border-4 hover:border-gold border-transparent border-4">
+      <div className=" p-5">
+        <div className="rounded-2xl  overflow-hidden w-80 group-hover:border-4 group-hover:border-gold ">
           <Image
             src={image}
             alt="service"
@@ -27,11 +25,15 @@ const CardServicesDetails = ({
       </div>
 
       <div className=" flex items-center justify-center py-6 ">
-        <div className="text-white flex flex-col items-center justify-center gap-y-5">
-          <div className="w-20 ">
-            <Image src={icon} alt="service" className="rounded-2xl filter invert brightness-max " />
+        <div className="flex flex-col items-center justify-center gap-y-5">
+          <div className="w-20  ">
+            <Image
+              src={icon}
+              alt="service"
+              className="rounded-2xl "
+            />
           </div>
-          <div>
+          <div className="text-gold ">
             <h2 className="text-3xl font-bold  ">{title}</h2>
             <ul className="custom-list ">
               {list.map((item) => (
