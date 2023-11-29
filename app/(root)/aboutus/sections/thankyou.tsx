@@ -28,7 +28,6 @@ const ThankYou = () => {
             supporting us.
           </p>
           <p>Maxwell Belarmino - CEO</p>
-          {/* <CardContact /> */}
           {cardinfo.map((card) => (
             <CardContact
               key={card.name}
