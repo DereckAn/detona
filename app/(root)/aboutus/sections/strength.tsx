@@ -7,10 +7,10 @@ const Strenth = () => {
       <Image
         src={sl}
         alt="hero image"
-        layout="fill"
-        objectFit="cover"
-        objectPosition="center"
-        className=" z-0 absolute w-full "
+        fill
+        sizes="100%"
+        placeholder="blur"
+        className=" z-0 absolute w-full object-cover"
       />
       <div className="absolute w-full h-full bg-black opacity-20 z-10"></div>
 

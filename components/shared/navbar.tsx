@@ -24,8 +24,9 @@ const Navbar = () => {
             src={detona}
             alt="Logo"
             width={180}
-            height={100}
             className=" mr-16 object-cover "
+            sizes="100%"
+            // priority={true}
           />
         </Link>
         <ul className="md:flex gap-5 hidden ">
@@ -55,7 +56,7 @@ const Navbar = () => {
         <FiAlignLeft
           size={30}
           className="block md:hidden"
-          onclick={handleMenuClick}
+          onClick={handleMenuClick}
         />
       </div>
       {isMenuOpen && (

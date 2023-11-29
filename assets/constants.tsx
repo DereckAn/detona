@@ -139,7 +139,7 @@ export const reviews = [
   },
   {
     text:
-      "Fueron tan rápidos en programar el último minuto, muy complacientes con mi horario. Tuve que cambiar la hora y aún no estaba listo cuando llegaron, ¡pero solucionaron mi pobre programación e hicieron un trabajo fantástico!",
+      "Fueron a tan rápidos en programar el último minuto, muy complacientes con mi horario. Tuve que cambiar la hora y aún no estaba listo cuando llegaron, ¡pero solucionaron mi pobre programación e hicieron un trabajo fantástico!",
     name: "Whitney Rose",
     date: "Hace 2 años",
     stars: 5,

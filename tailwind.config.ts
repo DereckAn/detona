@@ -11,7 +11,7 @@ const config: Config = {
       colors: {
         primary:'#75553350',
         secondary: '#b8cabe',
-        fourth: '#aa8064',
+        fourth: '#FAF3DD',
         blu2: '#02273F',
         blu: '#021930',
         gold: '#BB8F67',

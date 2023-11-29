@@ -7,10 +7,10 @@ const HeroSection = () => {
       <Image
         src={sl}
         alt="hero image"
-        layout="fill"
-        objectFit="cover"
-        objectPosition="center"
+        fill
         className=" z-0 absolute w-full "
+        sizes="100%"
+        placeholder="blur"
       />
       <div className="absolute w-full h-full bg-black opacity-20 z-10"></div>
 

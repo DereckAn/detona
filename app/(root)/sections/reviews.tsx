@@ -15,7 +15,7 @@ const Reviews = () => {
       <div className="py-10 logos2 ">
         <div className="flex gap-5 py-10 logos-slide2">
           {reviews.map((review) => (
-            <div key={review.name} className="">
+            <div key={review.text} className="">
               <Testimonial2  {...review} />
             </div>
           ))}

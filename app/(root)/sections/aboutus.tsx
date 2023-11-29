@@ -12,9 +12,10 @@ const AboutUs = () => {
             <Image
               src={room}
               alt="hero image"
-              objectFit="cover"
-              objectPosition="center"
               className="rounded-xl"
+              sizes="100%"
+              // priority={true}
+              placeholder = 'blur'
             />
           </div>
           <div className="basis-1/2 max-w-md space-y-5 flex flex-col justify-center text-gold">

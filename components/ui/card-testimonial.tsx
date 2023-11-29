@@ -21,6 +21,8 @@ const Testimonial2 = ({ text, name, date, image, stars }: Testimonial2Props) => 
             fill
             loading="lazy"
             className="object-cover rounded-full ring-4 ring-gray-300 dark:ring-[#0A0A0B]/30"
+            sizes="50%"
+            placeholder = 'blur'
           />
         </div>
         <div>
