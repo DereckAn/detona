@@ -13,7 +13,7 @@ const Footer = () => {
           sizes="100%"
           placeholder="blur"
         />
-        <div className="absolute w-full h-full bg-black opacity-40 z-10"></div>
+        <div className="absolute w-full h-full bg-black opacity-40 z-10 object-cover"></div>
 
         <div className="relative z-10 my-20 flex flex-col space-y-6 items-center justify-center">
           <h1 className="text-4xl font-black text-white tracking-wide text-center ">
