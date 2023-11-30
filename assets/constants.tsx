@@ -214,12 +214,118 @@ export const informationservice = [
     image: sala3,
     id: 3,
   },
-  {
-    title: "Regular Cleaning",
-    description: "We wash your carpet",
-    image: sala3,
-    id: 4,
-  },
+];
+
+export const informationservice2 = [
+  [
+    {
+      title: "RESTROOMS",
+      description: [
+        "Toilets",
+        "Urinals",
+        "Sinks",
+        "Mirrors",
+        "Floors",
+        "Trash Containers",
+      ],
+      image: sala3,
+    },
+    {
+      title: "FLOORS",
+      description: ["Resilient", "Cement", "Tile", "Rugs", "Others"],
+      image: sala3,
+    },
+    {
+      title: "DOORS, WALLS, PARTITIONS",
+      description: ["Doors", "Frames", "Walls", "Baseboards"],
+      image: sala3,
+    },
+    {
+      title: "WORK DERCRIPTION",
+      description: [
+        "Clean",
+        "Sanitize",
+        "Polish",
+        "Wipe",
+        "Dust",
+        "Vacuum",
+        "Damp Mop",
+      ],
+      image: sala3,
+    },
+  ],
+  [
+    {
+      title: "LOBBY",
+      description: [
+        "Dusting",
+        "Sweeping",
+        "Cleaning lobby desks",
+        "Emptying trash bins ",
+        "Replacing trash bags",
+      ],
+      image: sala3,
+    },
+    {
+      title: "BREAK ROOM",
+      description: [
+        "Vacuuming rugs",
+        "Mopping floors",
+        "Clean and sanitizing break rooms",
+        "kitchens",
+        "offices",
+        "public areas.",
+      ],
+      image: sala3,
+    },
+    {
+      title: "OFFICE",
+      description: ["Doors", "Frames", "Walls", "Baseboards"],
+      image: sala3,
+    },
+    {
+      title: "WORK DERCRIPTION",
+      description: ["Clean", "Dust", "Spot Clean", "Damp Mop"],
+      image: sala3,
+    },
+  ],
+  [
+    {
+      title: "RESTROOMS",
+      description: [
+        "Toilets",
+        "Urinals",
+        "Sinks",
+        "Mirrors",
+        "Floors",
+        "Trash Containers",
+      ],
+      image: sala3,
+    },
+    {
+      title: "FLOORS",
+      description: ["Resilient", "Cement", "Tile", "Rugs", "Others"],
+      image: sala3,
+    },
+    {
+      title: "DOORS, WALLS, PARTITIONS",
+      description: ["Doors", "Frames", "Walls", "Baseboards"],
+      image: sala3,
+    },
+    {
+      title: "WORK DERCRIPTION",
+      description: [
+        "Clean",
+        "Sanitize",
+        "Polish",
+        "Wipe",
+        "Dust",
+        "Vacuum",
+        "Damp Mop",
+      ],
+      image: sala3,
+    },
+  ],
 ];
 
 export const cardinfo = [
@@ -306,3 +412,34 @@ export const tecnologies = [
     icon: BiLogoTypescript,
   },
 ];
+
+// {
+//   titles: ["RESTROOMS", "FLOORS", "DOORS, WALLS, PARTITIONS"],
+//   descriptions: [
+//     "we accept by-weekly or monthly payments, checks, online payments, and automatic payments. we do not charge sales taxes or fees.",
+//     "Resilent, Cement, Tile, Rug, Other",
+//     "Doors, Frames, Walls, Baseboards"
+//   ],
+//   images: [sala3, sala3, sala3],
+//   id: 1,
+// },
+// {
+//   titles: ["Payments", "Regular Cleaning", "Regular Vacuuming"],
+//   descriptions: [
+//     "we accept by-weekly or monthly payments, checks, online payments, and automatic payments. we do not charge sales taxes or fees.",
+//     "We wash your carpet",
+//     "We wash your carpet",
+//   ],
+//   images: [sala3, sala3, sala3],
+//   id: 2,
+// },
+// {
+//   titles: ["Payments", "Regular Cleaning", "Regular Vacuuming"],
+//   descriptions: [
+//     "we accept by-weekly or monthly payments, checks, online payments, and automatic payments. we do not charge sales taxes or fees.",
+//     "We wash your carpet",
+//     "We wash your carpet",
+//   ],
+//   images: [sala3, sala3, sala3],
+//   id: 3,
+// },
