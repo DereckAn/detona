@@ -2,7 +2,7 @@ import Image, { StaticImageData } from "next/image";
 
 interface CleanServiceProps {
   title: string;
-  description: string;
+  description: string[];
   image: StaticImageData;
   id:number;
 }
@@ -13,10 +13,15 @@ const CleanService = ({title, description, image, id} : CleanServiceProps) => {
       {id % 2 === 0 ? (
         <>
           <div className="flex flex-col" id="dos">
-            <h2 className="text-2xl font-bold">{title}</h2>
-            <p className="max-w-2xl">
+            <h2 className="text-3xl font-bold">{title}</h2>
+            <ul className="custom-list pl-5 ">
+              {description.map((item) => (
+                <li key={item}>{item}</li>
+              ))}
+            </ul>
+            {/* <p className="max-w-2xl">
               {description}
-            </p>
+            </p> */}
           </div>
           <div className="w-96" id="uno" >
             <Image
@@ -35,11 +40,13 @@ const CleanService = ({title, description, image, id} : CleanServiceProps) => {
               className="rounded-xl object-cover"
             />
           </div>
-          <div className="flex flex-col" id="dos">
-            <h2 className="text-2xl font-bold">{title}</h2>
-            <p className="max-w-2xl">
-              {description}
-            </p>
+          <div className="flex flex-col border w-full max-w-2xl" id="dos">
+            <h2 className="text-3xl font-bold">{title}</h2>
+            <ul className="custom-list pl-5 ">
+              {description.map((item) => (
+                <li key={item}>{item}</li>
+              ))}
+            </ul>
           </div>
         </>
       )}

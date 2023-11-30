@@ -1,4 +1,4 @@
- import { informationservice } from "@/assets/constants";
+import { informationservice2 } from "@/assets/constants";
 import CardsServicesDetails from "@/components/ui/cards-services-details";
 import CleanService from "@/components/ui/clean-service";
 const Services = () => {
@@ -9,8 +9,15 @@ const Services = () => {
         <h2>What We Provide</h2>
       </div>
       <CardsServicesDetails />
-      {informationservice.map((info) => (
-        <CleanService key={info.id} {...info} />
+      
+      {informationservice2[0].map((info, index) => (
+        <CleanService
+          key={info.title}
+          id={index}
+          description={info.description}
+          image={info.image}
+          title={info.title}
+        />
       ))}
     </div>
   );
