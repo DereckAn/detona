@@ -10,7 +10,7 @@ const Services = () => {
       </div>
       <CardsServicesDetails />
       
-      {informationservice2[0].map((info, index) => (
+      {/* {informationservice2[0].map((info, index) => (
         <CleanService
           key={info.title}
           id={index}
@@ -18,7 +18,7 @@ const Services = () => {
           image={info.image}
           title={info.title}
         />
-      ))}
+      ))} */}
     </div>
   );
 };

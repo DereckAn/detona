@@ -194,27 +194,6 @@ export const services2 = [
   },
 ];
 
-export const informationservice = [
-  {
-    title: "Payments",
-    description:
-      "we accept by-weekly or monthly payments, checks, online payments, and automatic payments. we do not charge sales taxes or fees.",
-    image: sala3,
-    id: 1,
-  },
-  {
-    title: "Regular Cleaning",
-    description: "We wash your carpet",
-    image: sala3,
-    id: 2,
-  },
-  {
-    title: "Regular Cleaning",
-    description: "We wash your carpet",
-    image: sala3,
-    id: 3,
-  },
-];
 
 export const informationservice2 = [
   [

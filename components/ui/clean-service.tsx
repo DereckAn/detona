@@ -19,9 +19,6 @@ const CleanService = ({title, description, image, id} : CleanServiceProps) => {
                 <li key={item}>{item}</li>
               ))}
             </ul>
-            {/* <p className="max-w-2xl">
-              {description}
-            </p> */}
           </div>
           <div className="w-96" id="uno" >
             <Image

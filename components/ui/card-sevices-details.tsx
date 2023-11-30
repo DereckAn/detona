@@ -6,7 +6,7 @@ interface CardServicesDetailsProps {
   icon: StaticImageData;
   title: string;
   list: string[];
-  // onclick?: () => void;
+  onclick?: (event: React.MouseEvent<HTMLDivElement>) => void;
 }
 
 const CardServicesDetails = ({
@@ -14,20 +14,10 @@ const CardServicesDetails = ({
   icon,
   title,
   list,
-  // onclick,
+  onclick,
 }: CardServicesDetailsProps) => {
-
   return (
-    <div
-      className="group cursor-pointer content-around bg-blu2 rounded-2xl hover:bg-blu hover:border-4 hover:border-gold border-transparent border-4"
-      // onClick={onclick}
-      // onKeyDown={(e) => {
-      //   if (e.key === 'Enter' || e.key === ' ') {
-      //     onclick!();
-      //   }
-      // }}
-      // tabIndex={0}
-    >
+    <div onClick={onclick} className="group cursor-pointer content-around bg-blu2 rounded-2xl hover:bg-blu hover:border-4 hover:border-gold border-transparent border-4">
       <div className=" p-5">
         <div className="rounded-2xl  overflow-hidden w-80 group-hover:border-4 group-hover:border-gold ">
           <Image
