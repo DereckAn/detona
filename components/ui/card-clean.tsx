@@ -8,12 +8,12 @@ interface CardCleanProps {
 
 const CardClean = ({ title, image, description }: CardCleanProps) => {
   return (
-    <div className="bg-red-700  flex relative rounded-xl h-96 w-full items-center justify-center group">
+    <div className=" flex relative rounded-xl h-96 w-full items-center justify-center group">
       <Image
         src={image}
         alt="hero image"
         fill
-        className=" z-0 absolute rounded-xl  w-full"
+        className=" z-0 absolute rounded-xl  w-full object-cover"
         sizes="100%"
         placeholder="blur"
       />

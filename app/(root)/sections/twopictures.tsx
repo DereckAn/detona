@@ -1,7 +1,5 @@
 import { cardclean } from "@/assets/constants";
-import { sala2, sala3 } from "@/assets/images";
 import CardClean from "@/components/ui/card-clean";
-import Image from "next/image";
 
 const TwoPictures = () => {
   return (
