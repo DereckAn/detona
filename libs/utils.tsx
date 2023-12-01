@@ -6,3 +6,4 @@ export function cn(...classes: ClassValue[]) {
 }
 
 //note: este es un gist que sirve para hacer mas interactiva las classes
+// solo cambiar 
