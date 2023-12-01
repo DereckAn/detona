@@ -25,6 +25,8 @@ const CleanService = ({title, description, image, id} : CleanServiceProps) => {
               src={image}
               alt="hero image"
               className="rounded-xl object-cover"
+              priority
+              
             />
           </div>
         </>

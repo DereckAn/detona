@@ -21,6 +21,7 @@ const CardServicesDetails = ({
       <div className=" p-5">
         <div className="rounded-2xl  overflow-hidden w-80 group-hover:border-4 group-hover:border-gold ">
           <Image
+          priority
             src={image}
             alt="service"
             className="rounded-2xl group-hover:scale-110 transition-all duration-300 ease-in-out "

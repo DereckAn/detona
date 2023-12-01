@@ -173,7 +173,7 @@ export const services2 = [
   {
     image: planty,
     icon: brum,
-    title: "Stores",
+    title: "Stores..",
     list: [
       "Regular Cleaning",
       "Deep Cleaning",
@@ -184,7 +184,7 @@ export const services2 = [
   {
     image: planty,
     icon: brum,
-    title: "Stores",
+    title: "Stores.",
     list: [
       "Regular Cleaning",
       "Deep Cleaning",
@@ -246,7 +246,7 @@ export const informationservice2 = [
       image: sala3,
     },
     {
-      title: "BREAK ROOM",
+      title: "BREAK ROOM..  ",
       description: [
         "Vacuuming rugs",
         "Mopping floors",
@@ -258,19 +258,19 @@ export const informationservice2 = [
       image: sala3,
     },
     {
-      title: "OFFICE",
+      title: "OFFICE..",
       description: ["Doors", "Frames", "Walls", "Baseboards"],
       image: sala3,
     },
     {
-      title: "WORK DERCRIPTION",
+      title: "WORK DERCRIPTION..",
       description: ["Clean", "Dust", "Spot Clean", "Damp Mop"],
       image: sala3,
     },
   ],
   [
     {
-      title: "RESTROOMS",
+      title: "RESTROOMS.",
       description: [
         "Toilets",
         "Urinals",
@@ -282,17 +282,17 @@ export const informationservice2 = [
       image: sala3,
     },
     {
-      title: "FLOORS",
+      title: "FLOORS.",
       description: ["Resilient", "Cement", "Tile", "Rugs", "Others"],
       image: sala3,
     },
     {
-      title: "DOORS, WALLS, PARTITIONS",
+      title: "DOORS, WALLS, PARTITIONS.",
       description: ["Doors", "Frames", "Walls", "Baseboards"],
       image: sala3,
     },
     {
-      title: "WORK DERCRIPTION",
+      title: "WORK DERCRIPTION.",
       description: [
         "Clean",
         "Sanitize",
